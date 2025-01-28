@@ -85,7 +85,7 @@ plt.plot(
     color='limegreen',
     marker='o'
 )
-plt.title('Evolução das bilheteria média ao longo dos anos (Vencedores x Indicados)')
+plt.title('Evolução da bilheteria média ao longo dos anos (Vencedores x Indicados)')
 plt.xlabel('Ano')
 plt.ylabel('Bilheteria Média')
 plt.ticklabel_format(style='plain', axis='y')
