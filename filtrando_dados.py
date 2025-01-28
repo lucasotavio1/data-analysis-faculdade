@@ -19,4 +19,4 @@ df_oscar_filtrado = df_oscar_filtrado['film', 'year_film', 'category', 'year_cer
 # salvando o csv filtrado em um novo arquivo
 df_oscar_filtrado.to_csv('the_oscar.csv', None)
 
-# editei o arquivo csv manualmente adicionando a coluna boxoffice com ajuda da ia deepseek
+# a coluna boxoffice no arquivo the_oscar.csv foi criada manualmente com cajuda de IA.
