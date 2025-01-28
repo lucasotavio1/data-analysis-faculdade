@@ -16,7 +16,7 @@ trabalho de análise de dados da faculdade
 
 <h3 align="left">descrição do trabalho</h3>
 <p> 
-  nesse trabalho, escolhi o conjunto de dados "the oscar award", disponível na plataforma: <a href="https://www.kaggle.com/datasets/unanimad/the-oscar-award/data" target="_blank">kaggle</a>. a partir desse conjunto de dados, levantei a hipótese de que filmes ganhadores do Oscar têm uma maior bilheteira do que aqueles que foram indicados. para verificar essa hipótese, filtrei os dados e, com a ajuda da ia <a href="https://www.deepseek.com/" target="_blank">deepseek</a>, adicionei a "boxoffice" manualmente de cada um dos filmes. seguido de diversas análises estatísticas, consegui observar comportamentos interessantes e investigar melhor minha hipótese, que acabou se comprovando parcialmente verdadeira. as etapas incluíram:
+  nesse trabalho, escolhi o conjunto de dados "the oscar award", disponível na plataforma: <a href="https://www.kaggle.com/datasets/unanimad/the-oscar-award/data" target="_blank">kaggle</a>. a partir desse conjunto de dados, levantei a hipótese de que filmes ganhadores do Oscar têm uma maior bilheteira do que aqueles que foram indicados. para verificar essa hipótese, filtrei os dados e, com a ajuda da ia <a href="https://www.deepseek.com/" target="_blank">deepseek</a>, adicionei a "boxoffice" manualmente de cada um dos filmes. seguido de diversas análises estatísticas, consegui observar comportamentos interessantes e investigar melhor minha hipótese, que acabou sendo negada.
   
   - exploração do conjunto de dados
   - estatísticas descritivas
