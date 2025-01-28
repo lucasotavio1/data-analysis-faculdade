@@ -29,12 +29,15 @@ media_vencedores = df_vencedores['boxoffice'].mean()
 media_indicados = df_indicados['boxoffice'].mean()
 
 # agrupando a bilheteria média por ano de vencedores e indicados
-bilheteria_por_ano_vencedores = df_vencedores.groupby('year_film')['boxoffice'].mean()
-bilheteria_por_ano_indicados = df_indicados.groupby('year_film')['boxoffice'].mean()
+bilheteria_por_ano_vencedores = df_vencedores.groupby('year_film')[
+    'boxoffice'].mean()
+bilheteria_por_ano_indicados = df_indicados.groupby('year_film')[
+    'boxoffice'].mean()
 
 # criando um gráfico de barras para os top 20 filmes vencedores com maior bilheteria
 plt.figure(figsize=(12, 6))
-plt.bar(df_vencedores_top20['film'], df_vencedores_top20['boxoffice'], color='gold')
+plt.bar(df_vencedores_top20['film'],
+        df_vencedores_top20['boxoffice'], color='gold')
 plt.title('Top 20 filmes vencedores de Oscar com maior bilheteria')
 plt.xlabel('Filmes')
 plt.ylabel('Bilheteria')
@@ -45,7 +48,8 @@ plt.show()
 
 # criando um gráfico de barras para os top 20 filmes indicados com maior bilheteria
 plt.figure(figsize=(12, 6))
-plt.bar(df_indicados_top20['film'], df_indicados_top20['boxoffice'], color='limegreen')
+plt.bar(df_indicados_top20['film'],
+        df_indicados_top20['boxoffice'], color='limegreen')
 plt.title('Top 20 filmes indicados ao Oscar com maior bilheteria')
 plt.xlabel('Filmes')
 plt.ylabel('Bilheteria')
@@ -60,6 +64,7 @@ cores = ['gold', 'limegreen']
 plt.bar(
     ['Vencedores', 'Indicados'],
     [media_vencedores, media_indicados],
+    width=0.1,
     label=['Vencedores', 'Indicados'],
     color=cores
 )
