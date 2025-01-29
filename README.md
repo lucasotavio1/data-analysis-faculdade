@@ -27,6 +27,7 @@ trabalho de análise de dados da faculdade
 </p>
 
 ---
+
 <h3 align="left">autor</h3>
 
-feito com ❤️ por Lucas Otávio e [@LuHenRe](https://github.com/LuHenRe)
+feito com ❤️ por Lucas Otávio e [@LuHenRe](github.com/LuHenRe)
