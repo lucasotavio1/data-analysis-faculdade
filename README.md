@@ -16,7 +16,7 @@ trabalho de análise de dados da faculdade
 
 <h3 align="left">descrição do trabalho</h3>
 <p> 
-  nesse trabalho, foi escolhido o conjunto de dados "the oscar award", disponível na plataforma: <a href="https://www.kaggle.com/datasets/unanimad/the-oscar-award/data" target="_blank">kaggle</a>. a partir desse conjunto de dados, foi levantada a hipótese de que filmes com maior bilheteria têm mais chances de vencer o oscar de melhor filme do que aqueles com menor bilheteria. para verificar essa hipótese, os dados foram filtrados e modificados. seguido de diversas análises estatísticas, conseguimos observar comportamentos interessantes e investigar melhor a hipótese, que acabou sendo negada.
+  nesse trabalho, foi escolhido o conjunto de dados "the oscar award", disponível na plataforma: <a href="https://www.kaggle.com/datasets/unanimad/the-oscar-award/data" target="_blank">kaggle</a>. a partir desse conjunto de dados, foi levantada a hipótese de que <strong>filmes com maior bilheteria têm mais chances de vencer o oscar de melhor filme do que aqueles com menor bilheteria</strong>. para verificar essa hipótese, os dados foram filtrados e modificados. seguido de diversas análises estatísticas, conseguimos observar comportamentos interessantes e investigar melhor a hipótese, que acabou sendo negada.
   as etapas incluiram:
   
   - exploração do conjunto de dados
